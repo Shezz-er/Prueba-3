@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="validacion.js"></script>
+    <title>♡Contacto♡</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet"  href="estilo2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-12">
+                <header>
+                    <h1 class="cursive tamaño2">♡ K i t t y  c u t e  c a f é ♡</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-12 ">
+                <div class="bann">
+                    <img src="img/gato.jpg">
+                </div>
+                <nav class="navbar navbar-expand-lg bg-light cajanav">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/kittylogocafe.png" width="170" height="175" >
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link cursive tamaño" aria-current="page" href="Portada.html">♡Home♡</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cursive tamaño" href="formulario.html">♡Contacto♡</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cursive tamaño" href="#">♡Menú♡</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cursive tamaño" href="#">♡Galería♡</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle cursive tamaño" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ♡Más de nosotros♡
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item cursive tamaño" href="#">♡Nuestros integrantes♡</a></li>
+                                <li><a class="dropdown-item cursive tamaño" href="#">♡Quiénes somos♡</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <form class="d-flex" role="Buscar">
+                                <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row ">
+        <center>
+            <div class="col-xs-12 col-sm-6 col-md-6 textococ">
+            <form action="https://" method="post" name="formulario">
+                <h1 class="titulo">♡Contacto♡</h1>
+
+                <label for="">Nombre:</label>
+                <input type="text" placeholder="Tomás" class="form-control" id="txt_nombre" required>
+
+                <label for="">Apellido:</label>
+                <input type="text" placeholder="Vásquez" class="form-control" id="txt_apellido" required>
+
+                <label for="">Género:</label> 
+                <br>
+                <input type="radio" class="form-check-input" name="rbt_genero" id="rbt_genero" value="M">
+                <label for="" class="form-check-label">Masculino</label>
+                <input type="radio" class="form-check-input" name="rbt_genero" id="rbt_genero" value="F">
+                <label for="" class="form-check-label">Femenino</label>
+                <input type="radio" class="form-check-input" name="rbt_genero" id="rbt_genero" value="F">
+                <label for="" class="form-check-label">Prefiero no decirlo </label>
+                <br>
+                <label for="">Email:</label>
+                <input type="email" placeholder="email@ejemplo.cl" class="form-control" name="txt_email" id="txt_email" required>
+
+                <label for="">Rut:</label>
+                <input type="text" placeholder="11111111-1" class="form-control" name="txt_rut" id="txt_rut" required>
+
+                <label for="">Telefono:</label>
+                <input type="number" placeholder="995935599" class="form-control" name="txt_telefono" id="txt_telefono" required>
+
+                <label for="">Razón:</label>
+                <select name="" id="txt_razon" class="form-select" required>
+                    <option value=""></option>
+                    <option value="Publicidad">Publicidad</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Reclamo">Reclamo</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                
+                <label for="">En el caso de elegir "Otro", ingrese su Razón:</label>
+                <textarea class="form-control" placeholder="Escriba aquí..." name="txa_otro" id="txa_otro" cols="30" rows="5"></textarea>
+                <br>
+                <input type="submit" class="btn btn-light" value="Guardar Producto" onclick="javascript:void(validar())">
+
+                <input type="reset" class="btn btn-dark" value="Limpiar">
+            </form>
+            </div>
+        </center>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

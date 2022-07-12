@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(157, 197, 218);
+}
+
+
+footer{
+    background-color: rgb(110, 157, 183);
+    height: fit-content;
+}
+
+.cursive{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(113, 90, 66);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+}
+.tamaño{
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.2px rgb(113, 90, 66);;
+    font-weight: bold;
+}
+.tamaño2{
+    font-size: 50px;
+}
+.texto{
+    margin: 20px;
+    padding: 12px;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.6px rgb(74, 168, 202);
+    font-weight: bold;
+    text-align: justify;
+    border-style:dashed;
+    border-width: 5px;
+    border-color: white;
+    font-size: large;
+}
+.texto2{
+    margin: 20px;
+    padding: 12px;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.7px rgb(74, 168, 202);
+    font-weight: bold;
+    text-align: justify;
+    border-style:dashed;
+    border-width: 5px;
+    border-color: white;
+    font-size: large;
+}
+
+.texto5{
+    margin: 10px;
+    padding: 25px;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.7px rgb(74, 168, 202);
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+
+.banner{
+
+    background-image: url("img/3.jpg")
+}
+
+
+.texto3{
+    margin: 20px;
+    padding:40px;
+    color: white;
+    font-family: cursive;
+    -webkit-text-stroke: 1.4px rgb(113, 217, 255);
+    font-size: 41px;
+}
+
+.texto4{
+    margin: 20px;
+    padding:40px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    -webkit-text-stroke: 0.6px rgb(113, 217, 255);
+    font-size: 34px;
+}
+.fondo{
+    background-image: url("img/fondo2.jpg");
+    padding : 20px;
+
+}
+
+.cajacarrusel{
+    margin-left: 13%;
+    border-style:double;
+    border-width: 5px;
+    border-color:#ffffff;
+    padding: 20px;
+
+}
+
+.cajanav{
+    border-style:double;
+    border-width: 6px;
+    border-color:#b4a7d6;
+}
+.bann{
+    text-align: center;
+    background-color:  #C7D9E7 ;
+    margin-bottom: 20px;
+}
+
+.cajafooter{
+    height: auto;
+}
+
+.video1{
+    padding-left: 20px;
+    margin: 40px; 
+}
+
+.video{
+    padding-left: 20px;
+    margin: 40px;
+}

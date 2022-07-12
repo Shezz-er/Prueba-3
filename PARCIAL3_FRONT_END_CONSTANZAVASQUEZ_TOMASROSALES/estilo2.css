@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(157, 197, 218);
+}
+
+.cursive{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(113, 90, 66);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+}
+.tamaño{
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.2px rgb(113, 90, 66);;
+    font-weight: bold;
+}
+
+.tamaño2{
+    font-size: 50px;
+}
+.cajanav{
+    border-style:double;
+    border-width: 6px;
+    border-color:#b4a7d6;
+}
+
+.titulo{
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.6px  rgb(74, 168, 202);
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.texto{
+    
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.6px rgba(245, 209, 252, 0.304);
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bann{
+    text-align: center;
+    background-color:  #C7D9E7 ;
+    margin-bottom: 20px;
+}
+
+.textococ{
+    text-align: left;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.6px rgba(245, 209, 252, 0.304);
+    font-weight: bold;
+}
